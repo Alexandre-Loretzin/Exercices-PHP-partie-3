@@ -18,7 +18,7 @@ echo "<br><br>";
 
 $i = 100;
 $n = rand(1,100);
-while ($i <=10){
+while ($i >10){
     echo ($i * $n)." ";
     $i --;
 }
